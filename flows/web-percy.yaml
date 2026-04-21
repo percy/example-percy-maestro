@@ -1,0 +1,15 @@
+url: https://percy.io
+---
+- launchApp
+- runScript:
+    file: ../node_modules/@percy/maestro/scripts/snapshot.js
+    env:
+      PERCY_SNAPSHOT_NAME: "percy-home"
+      PERCY_SNAPSHOT_WIDTHS: "375,1280"
+
+- scroll
+- runScript:
+    file: ../node_modules/@percy/maestro/scripts/snapshot.js
+    env:
+      PERCY_SNAPSHOT_NAME: "percy-home-scrolled"
+      PERCY_SNAPSHOT_WIDTHS: "375,1280"
