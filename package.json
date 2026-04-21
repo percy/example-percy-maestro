@@ -4,7 +4,7 @@
   "private": true,
   "description": "Example integration of Percy visual testing with the Maestro web testing framework",
   "scripts": {
-    "test-web": "percy exec -- bash -c 'percy-maestro serve & SRVPID=$!; sleep 2; maestro test flows/web-percy.yaml; kill $SRVPID 2>/dev/null; wait 2>/dev/null'",
+    "test-web": "percy-maestro exec -- maestro test flows/web-percy.yaml",
     "clean": "rm -rf ./screenshots"
   },
   "devDependencies": {
