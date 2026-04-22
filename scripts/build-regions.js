@@ -11,10 +11,12 @@
 const { createRegion } = require('@percy/maestro');
 
 const regions = [
-  // Ignore the top 80px nav area via coordinate-based boundingBox
+  // Ignore the top 80px nav area via coordinate-based boundingBox.
+  // padding is an object ({top,right,bottom,left}) per Percy's schema —
+  // a scalar number is rejected by Percy's snapshot validator.
   createRegion({
     boundingBox: { x: 0, y: 0, width: 1280, height: 80 },
-    padding: 4,
+    padding: { top: 4, right: 4, bottom: 4, left: 4 },
     algorithm: 'ignore'
   }),
 

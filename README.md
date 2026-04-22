@@ -42,7 +42,7 @@ Each flow is self-contained. Run the npm script for the feature you want to demo
 | Everything — comprehensive demo | `flows/web-percy.yaml` | `yarn test-web` | [Build #26](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48958270) — 9 snapshots, 4 test cases |
 | Multi-page navigation + cookies | `flows/auth-flow.yaml` | `yarn test-auth` | [Build #31](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48980917) |
 | Regions (ignore / layout / intelliignore) | `flows/regions-demo.yaml` | `yarn test-regions` | [Build #34](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48981196) |
-| `createRegion()` programmatic API | `flows/coded-regions.yaml` + `scripts/build-regions.js` | `yarn test-coded-regions` | [Build #35](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48981206) |
+| `createRegion()` programmatic API | `flows/coded-regions.yaml` + `scripts/build-regions.js` | `yarn test-coded-regions` | [Build #39](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48983192) |
 | Responsive DOM capture (per-width re-serialize) | `flows/responsive-demo.yaml` | `yarn test-responsive` | [Build #32](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48980926) |
 | Scoped snapshot (capture a DOM subtree) | `flows/scoped-demo.yaml` | `yarn test-scoped` | [Build #33](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48980933) |
 | Test cases + labels (UI grouping) | `flows/test-cases-labels.yaml` | `yarn test-cases-labels` | [Build #36](https://percy.io/9560f98d/web/maestro-new-a7230563/builds/48981219) |
