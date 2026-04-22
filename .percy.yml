@@ -1,0 +1,8 @@
+version: 2
+
+# Defaults applied to every Percy snapshot captured by @percy/maestro.
+# These mirror the Selenium/Playwright .percy.yml pattern — per-snapshot
+# `env:` overrides still win over anything set here.
+snapshot:
+  widths: [375, 1280]
+  minHeight: 1024
